@@ -1,0 +1,16 @@
+//Project0.module/Processes/project0/module/Process.bwp.displayer.openstate=0
+//Project0.module/Processes/project0/module/Process.bwp.displayer.targetpalette=com.tibco.bw.core.palette.bpel.design
+//Project0.module/Processes/project0/module/Process.bwp.favorite.expansionstate=1
+//Project0.module/Processes/project0/module/Process.bwp.library.expansionstate=0
+//Project0.module/Processes/project0/module/Process.bwp.recent.expansionstate=1
+com.tibco.bw.core.design.process.editor.numofvirtualpalettes=0
+eclipse.preferences.version=1
+global.bw.generalactivities.log=2024/05/28/09\:39\:12
+global.bw.generalactivities.timer=2024/05/28/09\:38\:02
+global.com.tibco.bw.core.design.process.editor.Activity_4002_Exit=2024/05/28/09\:39\:36
+global.favorite_palette_size=0
+global.recent_palette_\#0=bw.generalactivities.timer
+global.recent_palette_\#1=bw.generalactivities.log
+global.recent_palette_\#2=com.tibco.bw.core.design.process.editor.Activity_4002_Exit
+global.recent_palette_capacity=8
+global.recent_palette_size=3
