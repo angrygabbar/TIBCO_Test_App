@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<schema xmlns="http://www.w3.org/2001/XMLSchema" targetNamespace="http://www.example.org/project" xmlns:tns="http://www.example.org/project" elementFormDefault="qualified">
+
+
+    <element name="Emp_id" type="int"></element>
+    
+    <element name="EM_Name" type="string"></element>
+
+    <element name="Emp_add" type="string"></element>
+
+    <element name="Project" type="tns:Project_Type"></element>
+    
+    <element name="Project_name" type="string"></element>
+
+    <element name="Technology" type="string"></element>
+
+
+
+
+    <complexType name="Project_Type">
+    	<sequence>
+    		<element ref="tns:Project_name"></element>
+    		<element ref="tns:Technology"></element>
+    	</sequence>
+    </complexType>
+
+    <element name="Emp_Details" type="tns:Emp_type"></element>
+    
+
+    <complexType name="Emp_type">
+    	<sequence>
+    		<element ref="tns:EM_Name"></element>
+    		<element ref="tns:Emp_add"></element>
+    		<element ref="tns:Emp_id"></element>
+    		<element ref="tns:Project" minOccurs="0" maxOccurs="unbounded"></element>
+    	</sequence>
+    </complexType>
+</schema>
