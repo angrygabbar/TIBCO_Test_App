@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<schema xmlns="http://www.w3.org/2001/XMLSchema" targetNamespace="http://www.example.org/collegedetails" xmlns:tns="http://www.example.org/collegedetails" elementFormDefault="qualified">
+
+    <element name="Student_Details" type="tns:Student_Type"></element>
+
+    <element name="Student_id" type="int"></element>
+
+    <element name="Student_Name" type="string"></element>
+
+    <element name="Student_Add" type="string"></element>
+
+    <element name="Subject_Details" type="tns:Subject_type"></element>
+
+    <element name="Subject_id" type="int"></element>
+
+    <element name="Subject_Name" type="string"></element>
+
+
+    <complexType name="Student_Type">
+    	<sequence>
+    		<element ref="tns:Student_Name"></element>
+    		<element ref="tns:Student_id"></element>
+    		<element ref="tns:Student_Add"></element>
+    		<element ref="tns:Subject_Details" minOccurs="0" maxOccurs="unbounded"></element>
+    	</sequence>
+
+    </complexType>
+    
+    <attribute name="NewAttribute" type="string"></attribute>
+
+
+    <complexType name="Subject_type">
+    	<sequence>
+    		<element ref="tns:Student_Add"></element>
+    		<element ref="tns:Subject_id"></element>
+    	</sequence>
+    </complexType>
+</schema>
