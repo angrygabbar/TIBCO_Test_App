@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">&#x0A;<refactoring comment="Change XSD Element name from &apos;in&apos; to &apos;Number1&apos;" description="Change XSD Element name from &apos;in&apos; to &apos;Number1&apos;" flags="6" id="com.tibco.zion.refactoring.renameXSDElementDescriptor" stamp="1717038757592"/>&#x0A;<refactoring comment="Change XSD Element name from &apos;primitive&apos; to &apos;Number2&apos;" description="Change XSD Element name from &apos;primitive&apos; to &apos;Number2&apos;" flags="6" id="com.tibco.zion.refactoring.renameXSDElementDescriptor" stamp="1717038779875"/>
+</session>

@@ -1,2 +1,4 @@
+description.buildorder=SoapWebservice/hELLO/XSDSchema/SoapWebservice.application
+description.defaultbuildorder=false
 eclipse.preferences.version=1
 version=1
